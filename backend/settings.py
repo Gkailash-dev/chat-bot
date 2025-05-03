@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-2po5uarf!&8tjmb1x45$lav68*6@dv&h2zsfu&r13k$&owrl=k
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['kailash7dev.pythonanywhere.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1']  # Replace with your actual domain or IPs in production
 
 
 # Application definition
